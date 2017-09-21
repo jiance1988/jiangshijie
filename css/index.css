@@ -1,0 +1,106 @@
+* {
+    -webkit-transition: all 1s;
+}
+html,body,h1{
+
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    position: absolute;
+    height: 50px;
+    top:0;
+}
+#content{
+    display: none;
+}
+.content{
+    width:100%;
+    overflow: auto;
+    top:50px;
+    position:absolute;
+    z-index:10;
+    bottom:100px;
+    background-color: white;
+    text-align: center;
+}
+footer{
+    height:100px;
+    width:100%;
+    position: absolute;
+    bottom:0px;
+    z-index:5;
+}
+table{
+    width:70%;
+    margin: 0 auto;
+    text-align: left;
+}
+.headline{
+    float:left;
+    background-color: dimgray;
+    margin: 0 auto;
+}
+.head{
+    background-color: rgb(210,210,210) ;
+    overflow: auto;
+    width:70%;
+    margin: 0 auto;
+}
+image{
+    margin:0;
+}
+.ringtImage{
+    text-align: right;
+}
+#style-text{
+    height: auto;
+}
+pre:not(:empty){
+    margin: 0 auto;
+    overflow: hidden;
+    background:rgb(48,48,48);
+    border:1px solid #cccccc;
+    max-height: 100%;
+    max-width: 100%;
+    white-space: pre-wrap;
+    font: 16px Georgia;
+    /*outline: 0;*/
+    color:white;
+}
+.aside{
+    float:left;
+    width:30%;
+    height: 78%;
+    background-color: white;
+}
+
+ul{
+    list-style-position: inside;
+}
+/*定义滚动条样式*/
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+/*::-webkit-scrollbar*/
+/*{*/
+    /*width: 0.01rem;*/
+    /*height: 0.01rem;*/
+    /*background-color: #fff;*/
+/*}*/
+
+/*!*定义滚动条轨道 内阴影+圆角*!*/
+/*::-webkit-scrollbar-track*/
+/*{*/
+    /*-webkit-box-shadow: inset 0 0 6px rgba(255,255,255,0.3);*/
+    /*border-radius: 0.1rem;*/
+    /*background-color: #fff;*/
+/*}*/
+
+/*!*定义滑块 内阴影+圆角*!*/
+/*::-webkit-scrollbar-thumb*/
+/*{*/
+    /*border-radius: 0.1rem;*/
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);*/
+    /*background-color: #fff;*/
+/*}*/
